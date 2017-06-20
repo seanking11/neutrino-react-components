@@ -23,7 +23,7 @@ storiesOf('Alert', module)
     }
 
     return (
-      <div>
+      <WithNotes notes={'When copying from the JSX tab, note that the \'type\' doesn\'t properly get populated from Alert.types'}>
         <Alert
           show={boolean('Show?', true)}
           title={text('Title', 'Dabnabit!')}
@@ -34,6 +34,6 @@ storiesOf('Alert', module)
         >
           {text('Message', 'Shit is florida')}
         </Alert>
-      </div>
+      </WithNotes>
     )
   })

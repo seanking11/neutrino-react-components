@@ -26,5 +26,8 @@
     "react-addons-css-transition-group": "^15.6.0",
     "react-dom": "^15.6.1",
     "styled-components": "^2.1.0"
+  },
+  "publishConfig": {
+    "registry": "http://artifactory.labelinsight.com/artifactory/api/npm/npm-virtual"
   }
 }
