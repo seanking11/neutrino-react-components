@@ -6,11 +6,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "neutrino start --use neutrino-preset-react-components",
-    "build": "neutrino build --use neutrino-preset-react-components"
+    "build": "neutrino build --use neutrino-preset-react-components",
+    "storybook": "start-storybook -p 9001 -c .storybook"
   },
   "author": "Sean King",
   "license": "ISC",
   "devDependencies": {
+    "@storybook/react": "^3.1.3",
     "neutrino": "^6.0.3",
     "neutrino-preset-react-components": "^2.0.1"
   },
